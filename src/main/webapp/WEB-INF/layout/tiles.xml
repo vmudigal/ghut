@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+    <definition name="base.definition"
+        template="/WEB-INF/layout/base.jsp">
+        <put-attribute name="title" value="" />
+        <put-attribute name="header" value="/WEB-INF/component/header.jsp" />
+        <put-attribute name="menu" value="/WEB-INF/component/menu.jsp" />
+        <put-attribute name="content" value="" />
+        <put-attribute name="footer" value="/WEB-INF/component/footer.jsp" />
+    </definition>
+    
+    <definition name="home.definition"
+        template="/WEB-INF/layout/home.jsp">
+        <put-attribute name="title" value="" />
+        <put-attribute name="header" value="/WEB-INF/component/header.jsp" />
+        <put-attribute name="content" value="" />
+        <put-attribute name="footer" value="/WEB-INF/component/footer.jsp" />
+    </definition>
+
+    <definition name="home" extends="home.definition">
+        <put-attribute name="title" value="{ G.H.U.T }" />
+        <put-attribute name="content" value="/WEB-INF/content/home.jsp" />
+    </definition>
+    
+    <definition name="swf" extends="base.definition">
+        <put-attribute name="title" value="Scramble" />
+        <put-attribute name="content" value="/WEB-INF/content/swf.jsp" />
+    </definition>
+    
+    <definition name="swfr" extends="base.definition">
+        <put-attribute name="title" value="Scramble" />
+        <put-attribute name="content" value="/WEB-INF/content/swfr.jsp" />
+    </definition>
+    
+    <definition name="wwf" extends="base.definition">
+        <put-attribute name="title" value="Words" />
+        <put-attribute name="content" value="/WEB-INF/content/wwf.jsp" />
+    </definition>
+    
+    <definition name="wwfr" extends="base.definition">
+        <put-attribute name="title" value="Words" />
+        <put-attribute name="content" value="/WEB-INF/content/wwfr.jsp" />
+    </definition>
+    
+    <definition name="hwf" extends="base.definition">
+        <put-attribute name="title" value="Hanging" />
+        <put-attribute name="content" value="/WEB-INF/content/hwf.jsp" />
+    </definition>
+    
+    <definition name="hwfr" extends="base.definition">
+        <put-attribute name="title" value="Hanging" />
+        <put-attribute name="content" value="/WEB-INF/content/hwfr.jsp" />
+    </definition>
+ 
+</tiles-definitions>
