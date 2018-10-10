@@ -43,13 +43,6 @@ public class BaseController {
 
 	}
 
-	@RequestMapping(value = "/hwf", method = RequestMethod.GET)
-	public String hwf(ModelMap model) {
-
-		return "hwf";
-
-	}
-
 	@RequestMapping(value = "/swf", method = RequestMethod.GET)
 	public SwfTO getSwf(Model model, WebRequest request) {
 		return new SwfTO();

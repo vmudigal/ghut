@@ -84,30 +84,23 @@
 	</div>
 	<div class="container">
 		<div class="marketing">
-			<h2 style="margin-bottom: 40px; font-weight: bolder;">Current
+			<h2 style="margin-bottom: 40px; font-weight: bolder; text-align: center;">Current
 				Game Helpers</h2>
-			<div class="row-fluid">
-				<div class="container">
-					<a style="color: #333333;" href="<c:url value="/swf" /> ">
-						<div class="span4">
-							<img class="marketing-img"
-								src="https://lh3.ggpht.com/1RtzlIx0zfsp9nw96jsB5Lt_Z4ZCc7spQlRMV5SbVrcjvlUCzVl_I6tlsBWke-DHi9WN=w124" />
-							<h4>Scramble with Friends</h4>
-						</div>
-					</a> <a style="color: #333333;" href="<c:url value="/wwf" /> ">
-						<div class="span4">
-							<img class="marketing-img"
-								src="https://lh6.ggpht.com/ZfBziaopT1QLPF1Ajf_RkYQns4dHGh2iKK7xo3TN_b7-4I8P2HNC8YFHETDDLLYbgx8o=w124" />
-							<h4>Words with Friends</h4>
-						</div>
-					</a> <a style="color: #333333;" href="<c:url value="/hwf" /> ">
-						<div class="span4">
-							<img class="marketing-img"
-								src="https://lh5.ggpht.com/d1wGiWgLfWRacryVQp1jIBSaEOmiltFbvleNCTROWTBd39z_IOj6ioVGG1qQLhXgXXWP=w124" />
-							<h4>Hanging with Friends</h4>
-						</div>
-					</a>
-				</div>
+			<div class="row">
+				<div class="span3"></div>
+				<a style="color: #333333;" href="<c:url value="/swf" /> ">
+					<div class="span3">
+						<img class="marketing-img"
+							src="https://lh3.ggpht.com/1RtzlIx0zfsp9nw96jsB5Lt_Z4ZCc7spQlRMV5SbVrcjvlUCzVl_I6tlsBWke-DHi9WN=w124" />
+						<h4>Scramble with Friends</h4>
+					</div>
+				</a> <a style="color: #333333;" href="<c:url value="/wwf" /> ">
+					<div class="span3">
+						<img class="marketing-img"
+							src="https://lh6.ggpht.com/ZfBziaopT1QLPF1Ajf_RkYQns4dHGh2iKK7xo3TN_b7-4I8P2HNC8YFHETDDLLYbgx8o=w124" />
+						<h4>Words with Friends</h4>
+					</div>
+				</a>
 			</div>
 		</div>
 	</div>

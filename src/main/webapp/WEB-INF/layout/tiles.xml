@@ -44,15 +44,5 @@
         <put-attribute name="title" value="Words" />
         <put-attribute name="content" value="/WEB-INF/content/wwfr.jsp" />
     </definition>
-    
-    <definition name="hwf" extends="base.definition">
-        <put-attribute name="title" value="Hanging" />
-        <put-attribute name="content" value="/WEB-INF/content/hwf.jsp" />
-    </definition>
-    
-    <definition name="hwfr" extends="base.definition">
-        <put-attribute name="title" value="Hanging" />
-        <put-attribute name="content" value="/WEB-INF/content/hwfr.jsp" />
-    </definition>
  
 </tiles-definitions>

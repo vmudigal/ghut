@@ -36,58 +36,58 @@ screenshot, pause the game and get this help.
 					<table>
 						<tbody>
 							<tr>
-								<td><form:input id="i00" type="textarea" maxlength="1"
+								<td><form:input id="i00" type="input" maxlength="1"
 										path="i00" class="scrambleBox" onkeypress="clearError('i00');"
 										autocomplete="off" /></td>
-								<td><form:input id="i01" type="textarea" maxlength="1"
+								<td><form:input id="i01" type="input" maxlength="1"
 										path="i01" class="scrambleBox" onkeypress="clearError('i01');"
 										autocomplete="off" /></td>
-								<td><form:input id="i02" type="textarea" maxlength="1"
+								<td><form:input id="i02" type="input" maxlength="1"
 										path="i02" class="scrambleBox" onkeypress="clearError('i02');"
 										autocomplete="off" /></td>
-								<td><form:input id="i03" type="textarea" maxlength="1"
+								<td><form:input id="i03" type="input" maxlength="1"
 										path="i03" class="scrambleBox" onkeypress="clearError('i03');"
 										autocomplete="off" /></td>
 							</tr>
 							<tr>
-								<td><form:input id="i10" type="textarea" maxlength="1"
+								<td><form:input id="i10" type="input" maxlength="1"
 										path="i10" class="scrambleBox" onkeypress="clearError('i10');"
 										autocomplete="off" /></td>
-								<td><form:input id="i11" type="textarea" maxlength="1"
+								<td><form:input id="i11" type="input" maxlength="1"
 										path="i11" class="scrambleBox" onkeypress="clearError('i11');"
 										autocomplete="off" /></td>
-								<td><form:input id="i12" type="textarea" maxlength="1"
+								<td><form:input id="i12" type="input" maxlength="1"
 										path="i12" class="scrambleBox" onkeypress="clearError('i12');"
 										autocomplete="off" /></td>
-								<td><form:input id="i13" type="textarea" maxlength="1"
+								<td><form:input id="i13" type="input" maxlength="1"
 										path="i13" class="scrambleBox" onkeypress="clearError('i13');"
 										autocomplete="off" /></td>
 							</tr>
 							<tr>
-								<td><form:input id="i20" type="textarea" maxlength="1"
+								<td><form:input id="i20" type="input" maxlength="1"
 										path="i20" class="scrambleBox" onkeypress="clearError('i20');"
 										autocomplete="off" /></td>
-								<td><form:input id="i21" type="textarea" maxlength="1"
+								<td><form:input id="i21" type="input" maxlength="1"
 										path="i21" class="scrambleBox" onkeypress="clearError('i21');"
 										autocomplete="off" /></td>
-								<td><form:input id="i22" type="textarea" maxlength="1"
+								<td><form:input id="i22" type="input" maxlength="1"
 										path="i22" class="scrambleBox" onkeypress="clearError('i22');"
 										autocomplete="off" /></td>
-								<td><form:input id="i23" type="textarea" maxlength="1"
+								<td><form:input id="i23" type="input" maxlength="1"
 										path="i23" class="scrambleBox" onkeypress="clearError('i23');"
 										autocomplete="off" /></td>
 							</tr>
 							<tr>
-								<td><form:input id="i30" type="textarea" maxlength="1"
+								<td><form:input id="i30" type="input" maxlength="1"
 										path="i30" class="scrambleBox" onkeypress="clearError('i30');"
 										autocomplete="off" /></td>
-								<td><form:input id="i31" type="textarea" maxlength="1"
+								<td><form:input id="i31" type="input" maxlength="1"
 										path="i31" class="scrambleBox" onkeypress="clearError('i31');"
 										autocomplete="off" /></td>
-								<td><form:input id="i32" type="textarea" maxlength="1"
+								<td><form:input id="i32" type="input" maxlength="1"
 										path="i32" class="scrambleBox" onkeypress="clearError('i32');"
 										autocomplete="off" /></td>
-								<td><form:input id="i33" type="textarea" maxlength="1"
+								<td><form:input id="i33" type="input" maxlength="1"
 										path="i33" class="scrambleBox" onkeypress="clearError('i33');"
 										autocomplete="off" /></td>
 							</tr>
@@ -150,8 +150,6 @@ screenshot, pause the game and get this help.
 			document.getElementById('i32').focus();
 		} else if (block == 'i32' && document.getElementById('i32').value == "") {
 			document.getElementById('i33').focus();
-		} else if (block == 'i33' && document.getElementById('i33').value == "") {
-			document.getElementById('generate').focus();
 		}
 	}
 </script>
